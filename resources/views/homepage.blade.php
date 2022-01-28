@@ -2,9 +2,13 @@
 
 @section('content')
     <div class="container-fluid homepage">
-        <div class="container">
+        <section class="jumbotron text-center">
+            <img src="{{ asset('images/jumbo.jpg') }}" alt="Jumbotron" class="w100">
+        </section>
+
+        <section class="container">
             Homepage
-        </div>
+        </section>
     </div>
     
 @endsection
